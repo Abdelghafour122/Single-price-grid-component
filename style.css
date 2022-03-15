@@ -20,7 +20,7 @@ body {
   background-color: var(--light-gray);
 }
 
-.component {
+main {
   margin: 30px auto;
   width: 635px;
   border-radius: 10px;
@@ -28,95 +28,95 @@ body {
   box-shadow: 0 19px 38px #cadaea, 0 15px 12px #cadaead7;
 }
 @media (max-width: 768px) {
-  .component {
+  main {
     width: 312px;
   }
 }
 
-.component .first {
+main .first {
   padding: 44px 42px;
   background-color: white;
 }
 @media (max-width: 767px) {
-  .component .first {
+  main .first {
     padding: 34px 24px;
   }
 }
 
-.component .first h1 {
+main .first h1 {
   margin: 0 0 30px 0;
   color: var(--cyan);
 }
 @media (max-width: 767px) {
-  .component .first h1 {
+  main .first h1 {
     font-size: 22px;
   }
 }
 
-.component .first h3 {
+main .first h3 {
   margin: 0 0 17px 0;
   color: var(--bright-yellow);
 }
 @media (max-width: 767px) {
-  .component .first h3 {
+  main .first h3 {
     font-size: 17px;
   }
 }
 
-.component .first p {
+main .first p {
   margin: 0;
   line-height: 28px;
   font-size: var(--fs-reg);
   color: var(--grayish-blue);
 }
 
-.component .second {
+main .second {
   display: grid;
   grid-template-columns: repeat(2, calc(635px / 2));
 }
 @media (max-width: 768px) {
-  .component .second {
+  main .second {
     grid-template-columns: 312px;
   }
 }
 
-.component .second .left {
+main .second .left {
   padding: 44px 42px;
   background-color: var(--cyan);
 }
 @media (max-width: 767px) {
-  .component .second .left {
+  main .second .left {
     padding: 30px;
   }
 }
 
-.component .second .left h3 {
+main .second .left h3 {
   color: white;
   margin: 0 0 23px 0;
 }
 
-.component .second .left .mid {
+main .second .left .mid {
   display: flex;
   align-items: center;
 }
 
-.component .second .left .mid span:first-of-type {
+main .second .left .mid span:first-of-type {
   font-size: 35px;
   color: white;
   font-weight: 700;
   margin-right: 18px;
 }
-.component .second .left .mid span:last-of-type {
+main .second .left .mid span:last-of-type {
   font-size: var(--fs-reg);
   color: #10d6d4;
 }
-.component .second .left p {
+main .second .left p {
   font-size: var(--fs-reg);
   color: var(--light-gray);
   margin: 17px 0 35px 0;
 }
 
-.component .second .left button {
+main .second .left button {
   padding: 15px 85px;
   font-size: var(--fs-reg);
   font-family: "Karla";
@@ -129,22 +129,22 @@ body {
   cursor: pointer;
 }
 
-.component .second .right {
+main .second .right {
   padding: 44px 42px;
   background-color: #4abebd;
 }
 
 @media (max-width: 767px) {
-  .component .second .right {
+  main .second .right {
     padding: 30px;
   }
 }
 
-.component .second .right h3 {
+main .second .right h3 {
   color: white;
   margin: 0 0 29px 0;
 }
-.component .second .right p {
+main .second .right p {
   color: var(--light-gray);
   font-size: var(--fs-reg);
   margin: 0 0 6px 0;
